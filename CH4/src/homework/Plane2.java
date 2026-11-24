@@ -1,0 +1,22 @@
+package homework;
+
+public class Plane2 implements iVehicle{
+	private int flight;
+	private int num;
+	private double gas;
+	
+	public Plane2(int f) {
+		flight = f;
+		
+		System.out.println("生產了" + flight + "班次的飛機");
+	}
+	
+	public void show() {
+		System.out.println("飛機的班次是" + flight);
+	}
+	
+	public void vShow() {
+		System.out.println("車號是" + num);
+		System.out.println("汽油量是" + gas);
+	}
+}

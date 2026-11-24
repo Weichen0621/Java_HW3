@@ -1,0 +1,18 @@
+package homework;
+
+import java.io.*;
+
+public class Ex4_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		RacingCar rccar1;
+		rccar1 = new RacingCar();
+		
+		rccar1.setCar(1234, 20.5);
+		rccar1.setCourse(5);
+		
+		rccar1.show();
+	}
+
+}

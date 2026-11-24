@@ -1,0 +1,25 @@
+package practice;
+
+import java.util.ArrayList;
+
+public class UtilExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		//專門存放String的「可變」長度陣列
+		ArrayList<String> names = new ArrayList<String>();
+
+        names.add("Tom");
+        names.add("Mary");
+        names.add("John");
+
+        System.out.println("Student list：");
+
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+        System.out.println("There are " + names.size() + " people in total");
+    }
+}
